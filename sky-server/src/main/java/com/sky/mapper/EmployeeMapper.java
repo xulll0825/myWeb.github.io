@@ -35,4 +35,6 @@ public interface EmployeeMapper {
     @Select("select * from employee where name is not null and name != '' and name like concat('%', #{name}, '%') order by create_time desc")
     Page<Employee> pageQuery(EmployeePageQueryDTO employeePageQueryDTO);
 
+
+    void update(Employee employee);
 }
