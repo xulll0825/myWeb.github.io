@@ -120,7 +120,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     /**
-     * 根据员工ID获取员工信息
+     * 根据员工ID获取信息
      * @param id
      * @return
      */
