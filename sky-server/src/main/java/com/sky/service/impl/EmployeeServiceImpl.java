@@ -119,6 +119,11 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     }
 
+    /**
+     * 根据员工ID获取员工信息
+     * @param id
+     * @return
+     */
     @Override
     public Employee getByID(Long id) {
         Employee employee = employeeMapper.getByID(id);
